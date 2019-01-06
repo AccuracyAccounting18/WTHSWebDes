@@ -2,7 +2,7 @@
 body {
 	background-color: grey;
 }
-.nav-bar {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,11 +10,11 @@ body {
   background-color: #333;
 }
 
-.nav-bar-item {
+li {
   float: left;
 }
 
-.nav-bar-item a, .dropbtn {
+li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-.nav-bar-item a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
