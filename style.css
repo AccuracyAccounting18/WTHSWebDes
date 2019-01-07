@@ -23,7 +23,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: green;
 }
 
 li.dropdown {
@@ -62,4 +62,8 @@ li.dropdown {
 {
 	float:right;
 	color:white;
+}
+#bottom-title
+{
+	font-size: 20px;
 }
